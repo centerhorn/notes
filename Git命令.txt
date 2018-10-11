@@ -36,3 +36,7 @@ git merge dev
 git branch
 18.删除分支
 git branch -d dev
+19.生成公钥
+ssh-keygen -t rsa -C "songerhao@bupt.edu.cn"
+20.克隆远程仓库
+git clone git@github.com:centerhorn/notes.git
