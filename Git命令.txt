@@ -36,3 +36,5 @@ git merge dev
 git branch
 18.删除分支
 git branch -d dev
+19.取回远程主机某个分支的更新，再与本地的指定分支合并
+git pull origin master:master
