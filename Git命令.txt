@@ -38,3 +38,8 @@ git branch
 git branch -d dev
 19.取回远程主机某个分支的更新，再与本地的指定分支合并
 git pull origin master:master
+20.生成公钥
+ssh-keygen -t rsa -C "songerhao@bupt.edu.cn"
+21.克隆远程仓库
+git clone git@github.com:centerhorn/notes.git
+
