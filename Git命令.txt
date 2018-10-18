@@ -45,4 +45,7 @@ git clone git@github.com:centerhorn/notes.git
 22.远程库强制覆盖本地代码
 git reset –hard origin/dev //下载某个分支 
 git reset –hard origin/master //把HEAD指向最新下载的主版本
+23.查看远程分支
+git branch -r
+
 
