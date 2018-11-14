@@ -1,0 +1,3 @@
+MMSE中：Q和Q1的计算式等价
+Q = (h'*h + noisFac)\h';
+Q1 = h'*pinv((h*h'+noisFac));
