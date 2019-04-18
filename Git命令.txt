@@ -49,5 +49,8 @@ git reset –hard origin/master //把HEAD指向最新下载的主版本
 git branch -r
 24.强制push
 git push -u origin master -f
+25.放弃本地修改，直接覆盖之
+git reset --hard
+git pull
 
 
